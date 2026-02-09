@@ -44,7 +44,12 @@
 	&__list {
 		display: flex;
 		flex-direction: column;
-		row-gap: 3.75rem; /* 60/16 */
+		row-gap: 2.5rem; /* 40/16 */
+		@media (min-width: 767.98px) {
+			&--bigger-gap {
+				row-gap: 3.75rem; /* 60/16 */
+			}
+		}
 	}
 
 	&__subtitle {

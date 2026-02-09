@@ -328,7 +328,12 @@ input:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  row-gap: 3.75rem; /* 60/16 */
+  row-gap: 2.5rem; /* 40/16 */
+}
+@media (min-width: 767.98px) {
+  .blog-hero__list--bigger-gap {
+    row-gap: 3.75rem; /* 60/16 */
+  }
 }
 .blog-hero__subtitle {
   font-size: 1.125rem; /* 18/16 */
