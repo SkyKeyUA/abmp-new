@@ -1,0 +1,48 @@
+.educators-hero {
+	// .educators-hero__container
+
+	&__container {
+		padding-block: 3.375rem; /* 54/16 */
+		position: relative;
+		background: url("/img/educators/hero-bg.jpg") center / cover no-repeat;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		min-height: 50svh;
+		display: flex;
+		align-items: center;
+		@media (max-width: 767.98px) {
+			justify-content: center;
+		}
+		&::before {
+			content: "";
+			position: absolute;
+			inset-block-start: 0;
+			inset-inline-start: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.2);
+		}
+	}
+
+	// .educators-hero__body
+
+	&__body {
+		color: var(--color-white);
+		position: relative;
+	}
+
+	// .educators-hero__title
+
+	&__title {
+		font-weight: 500;
+		font-size: 2.625rem; /* 42/16 */
+		line-height: 1.3;
+		@media (max-width: 767.98px) {
+			text-align: center;
+		}
+	}
+}
+.main__info-line {
+	padding-block: 3.75rem 5rem; /* 80/16 */
+}

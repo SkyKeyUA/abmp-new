@@ -1,0 +1,120 @@
+.subscriptions {
+	&--padding-block {
+		padding-block: 3.75rem; /* 60/16 */
+	}
+	// .subscriptions__container
+
+	&__container {
+	}
+
+	// .subscriptions__row
+
+	&__row {
+		color: var(--color-white);
+		margin-block-end: 1.6875rem; /* 27/16 */
+	}
+
+	// .subscriptions__column
+
+	&__column {
+		&:nth-child(3n + 2) {
+			position: relative;
+			&::before {
+				content: "BEST\aVALUE";
+				position: absolute;
+				left: 5px;
+				top: -30px;
+				border-radius: 50%;
+				padding: 1.6038rem 0.9696rem;
+				font-weight: 500;
+				font-size: 1.1953rem;
+				text-align: center;
+				line-height: 1.1;
+				white-space: pre;
+				text-decoration: none;
+				pointer-events: none;
+				color: var(--color-grey-70);
+				background-color: var(--color-pink-20);
+			}
+		}
+		&:nth-child(3n + 2) .subscriptions__content,
+		&:nth-child(3n) .subscriptions__content {
+			background-color: var(--color-green-50);
+		}
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		background: rgb(73, 146, 196) linear-gradient(180deg, rgba(73, 146, 196, 0) 0%, rgb(32, 61, 104) 100%);
+		border-radius: 0 1.25rem;
+		block-size: 100%;
+		h3 {
+			font-size: 1.375rem; /* 22/16 */
+			line-height: 1.2;
+			text-transform: uppercase;
+			text-align: center;
+			margin-block-end: 1.75rem; /* 28/16 */
+		}
+	}
+
+	// .subscriptions__text
+
+	&__text {
+		font-weight: 300;
+		font-size: 1.25rem;
+		line-height: 1.33;
+		flex-grow: 1;
+		margin-block-end: 2rem; /* 32/16 */
+		p:not(:last-child) {
+			margin-block-end: 0.5rem; /* 8/16 */
+		}
+		p:last-child {
+			margin-block-end: 0;
+		}
+	}
+
+	// .subscriptions__price
+
+	&__price {
+		font-size: 1.6875rem; /* 27/16 */
+		line-height: 1.2;
+		text-transform: uppercase;
+		text-align: center;
+		margin-block-end: 3.75rem; /* 60/16 */
+	}
+
+	// .subscriptions__links
+
+	&__links {
+		margin-inline: auto;
+	}
+
+	&__line {
+		font-weight: 500;
+		font-size: 1.25rem; /* 20/16 */
+		line-height: 1.33;
+		text-align: center;
+		color: var(--color-black-80);
+		margin-block-end: 3.75rem; /* 60/16 */
+		a {
+			text-decoration: underline;
+			text-underline-offset: 0.125rem;
+			text-decoration-color: var(--color-green-60);
+			text-decoration-skip-ink: none;
+			color: var(--color-grey-80);
+			transition: color 0.3s;
+			@media (any-hover: hover) {
+				&:hover {
+					color: var(--color-green-60);
+				}
+			}
+		}
+		p:not(:last-child) {
+			margin-block-end: 0.5rem; /* 8/16 */
+		}
+		p:last-child {
+			margin-block-end: 0;
+		}
+	}
+}
