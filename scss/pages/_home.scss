@@ -2,7 +2,7 @@
 	// .home-hero__container
 
 	&__container {
-		background: url("../../img/home/hero.jpeg") center top / cover no-repeat;
+		background: url("../img/home/hero.jpeg") center top / cover no-repeat;
 		@media (min-width: 767.98px) {
 			padding-block: 5.625rem 3.375rem; /* 54/16 */
 		}
