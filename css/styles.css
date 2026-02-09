@@ -114,7 +114,7 @@ input:focus {
 }
 
 .home-hero__container {
-  background: url("/img/home/hero.jpeg") center top/cover no-repeat;
+  background: url("img/home/hero.jpeg") center top/cover no-repeat;
 }
 @media (min-width: 767.98px) {
   .home-hero__container {
@@ -174,7 +174,7 @@ input:focus {
 }
 
 .practitioners-hero__container {
-  background: url("/img/practitioners/hero-bg.jpg") bottom center/cover no-repeat;
+  background: url("img/practitioners/hero-bg.jpg") bottom center/cover no-repeat;
 }
 @media (min-width: 767.98px) {
   .practitioners-hero__container {
@@ -236,7 +236,7 @@ input:focus {
 .educators-hero__container {
   padding-block: 3.375rem; /* 54/16 */
   position: relative;
-  background: url("/img/educators/hero-bg.jpg") center/cover no-repeat;
+  background: url("img/educators/hero-bg.jpg") center/cover no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
