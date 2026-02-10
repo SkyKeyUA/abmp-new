@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" href="favicon.ico" type="image/png">
+	<title>Listen & Learn | ABMP Podcasts for Massage Professionals
+	</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo logo logo--contain">
+					<a aria-label="Go to Home Page" href="/">
+						<img src="img/ABMP-logo.svg" alt="ABMP logo">
+					</a>
+				</div>
+				<div class="header__actions actions">
+					<ul class="actions__list">
+						<li><a href="tel:8004582267" class="actions__tel">800-458-2267</a></li>
+						<li><a href="https://www.abmp.com/signup" class="actions__sign-up">Join</a></li>
+						<li><a href="https://www.abmp.com/members/renew" class="actions__renew">Renew</a></li>
+					</ul>
+					<div class="actions__links"><a href="https://www.abmp.com/members"
+							class="actions__link link link--blue">Account Login</a></div>
+				</div>
+				<div class="header__navigation navigation">
+					<button aria-label="open/close menu" class="navigation__icon-menu icon-menu"><span></span></button>
+					<nav class="navigation__menu menu">
+						<ul class="menu__list">
+							<li class="menu__has-submenu">
+								<button type="button" class="menu__dropdown" aria-label="open/close submenu">Member
+									Benefits</button>
+								<ul class="menu__submenu submenu">
+									<li><a href="https://www.abmp.com/practitioners">Practitioners</a></li>
+									<li><a href="https://www.abmp.com/employers">Employers</a></li>
+									<li><a href="https://www.abmp.com/five-minute-muscles">ABMP Five-Minute Muscles</a></li>
+									<li><a href="https://www.abmp.com/abmp-pocket-pathology-app">ABMP Pocket Pathology</a></li>
+									<li><a href="https://www.abmp.com/discounts">Member Discounts</a></li>
+									<li><a href="https://www.abmp.com/pocketsuite">Free Online Scheduling</a></li>
+								</ul>
+							</li>
+							<li class="menu__has-submenu">
+								<button type="button" class="menu__dropdown" aria-label="open/close submenu">Massage
+									Insurance</button>
+								<ul class="menu__submenu submenu">
+									<li><a href="https://www.abmp.com/massage-liability-insurance">Massage Therapist
+											Insurance</a></li>
+									<li><a href="https://www.abmp.com/students/insurance-massage-students">Massage Student
+											Insurance</a></li>
+									<li><a href="https://www.abmp.com/educators/insurance-massage-schools">MassageSchool
+											Insurance</a></li>
+								</ul>
+							</li>
+							<li class="menu__has-submenu">
+								<button type="button" class="menu__dropdown" aria-label="open/close submenu">Continuing
+									Education</button>
+								<ul class="menu__submenu submenu">
+									<li><a href="https://www.abmp.com/learn">ABMP Education Center</a></li>
+									<li><a href="https://www.abmp.com/ce-socials">ABMP CE Socials</a></li>
+									<li><a href="https://www.abmp.com/summit">ABMP CE Summit</a></li>
+								</ul>
+							</li>
+							<li class="menu__has-submenu">
+								<button type="button" class="menu__dropdown" aria-label="open/close submenu">Students &
+									Schools</button>
+								<ul class="menu__submenu submenu">
+									<li><a href="https://www.abmp.com/students">Students</a></li>
+									<li><a href="https://www.abmp.com/educators">Educators</a></li>
+									<li><a href="https://www.abmp.com/students/abmp-exam-coach-plus">ABMP Exam Coach MBLEx Test
+											Prep</a></li>
+									<li><a href="https://www.abmp.com/mblex-prep-schools">MBLEx Test Prep for Schools</a></li>
+									<li><a href="https://www.abmp.com/cornerstones">Cornerstones Instructor Development</a></li>
+									<li><a href="https://www.abmp.com/educators/abmp-school-forums">ABMP School Forum</a></li>
+									<li><a href="https://www.abmp.com/student-membership-benefits-video">Student Resource
+											Tour</a></li>
+									<li><a href="https://www.abmp.com/order-school-marketing-materials">Order Marketing
+											Materials</a></li>
+									<li><a href="https://www.abmp.com/massage-school-directory">Massage School Directory</a></li>
+								</ul>
+							</li>
+							<li class="menu__has-submenu">
+								<button type="button" class="menu__dropdown" aria-label="open/close submenu">Resources</button>
+								<ul class="menu__submenu submenu">
+									<li><a href="https://www.abmp.com/massage-and-bodywork-magazine">Massage & Bodywork
+											Magazine</a></li>
+									<li><a href="https://www.abmp.com/podcasts">The ABMP Podcast</a></li>
+									<li><a href="https://www.abmp.com/events">Events</a></li>
+									<li><a href="https://www.massagetherapy.com/">MassageTherapy.com</a></li>
+									<li><a href="https://jobs.abmp.com/" target="_blank">ABMP Career Center</a></li>
+									<li><a href="https://respectmassage.com/" target="_blank">RespectMassage.com</a></li>
+									<li><a href="https://www.abmp.com/advocacy">Legislative Advocacy</a></li>
+									<li><a href="https://www.abmp.com/updates/blog">Massage Blog</a></li>
+									<li><a href="https://www.abmp.com/updates/news">Massage News</a></li>
+									<li><a href="https://www.abmp.com/massage-week-intro">ABMP Massage Week</a></li>
+									<li><a href="https://www.abmp.com/abmp-reviews">ABMP Testimonials</a></li>
+									<li><a href="https://www.abmp.com/abmp-code-ethics">ABMP Code of Ethics</a></li>
+									<li><a href="https://www.abmp.com/covid-updates">COVID-19 Resources</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="main__breadcrumbs breadcrumbs">
+				<div class="breadcrumbs__container">
+					<ol>
+						<li>
+							<a href="/">Home</a>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<section class="main__podcasts-hero podcasts-hero">
+				<div class="podcasts-hero__container">
+					<h1>ABMP Podcasts for Massage Therapists &
+						Bodyworkers</h1>
+					<div class="podcasts-hero__image-hero podcasts-hero__image-hero--contain">
+						<img src="img/podcasts/podcast-header.jpg" alt="podcast hero">
+					</div>
+					<h2>Exploring the issues and challenges unique to the massage and bodywork community.</h2>
+					<p>Subscribe to <em>The ABMP Podcast</em> in the <a
+							href="https://podcasts.apple.com/us/podcast/the-abmp-podcast/id1509599014" target="_blank">Apple
+							Podcasts</a> <a href="https://music.youtube.com/playlist?list=PL84TOGGMcHudxsa45PEMu_1B1fuibu7fN"
+							target="_blank">YouTube
+							Music</a>, <a href="https://open.spotify.com/show/2XYpoXoaZSUl0XW4BMUipw"
+							target="_blank">Spotify</a>, or wherever
+						you access your favorite podcasts, or click on an episode below to listen online.</p>
+					<p>Send questions, topic ideas, and guest recommendations to <a
+							href="mailto:podcast@abmp.com">podcast@abmp.com</a>, and we may answer your question on a future
+						podcast.</p>
+					<ul class="podcasts-hero__apps podcasts-hero__apps--border-bottom podcasts-hero__apps--contain">
+						<li>
+							<a href="https://podcasts.apple.com/us/podcast/the-abmp-podcast-speaking-with-the/id1509599014"
+								target="_blank"><img src="img/podcasts/1.png" alt="" loading="lazy"></a>
+						</li>
+						<li>
+							<a href="https://open.spotify.com/show/2XYpoXoaZSUl0XW4BMUipw" target="_blank"><img
+									src="img/podcasts/2.png" alt="" loading="lazy"></a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="main__block-posts block-posts block-posts--padding-block">
+				<div class="block-posts__container">
+					<ul class="block-posts__list block-posts__list--contain">
+						<li>
+							<div class="block-posts__image">
+								<a href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">
+									<img src="img/podcasts/block-posts/1.jpg" alt="">
+								</a>
+							</div>
+							<h2 class="block-posts__title"><a
+									href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">Ep 550 -
+									Something About Water with Rachelle Clauson and Nicole Trombley</a></h2>
+							<div class="block-posts__time">
+								<time datetime="2026-02-10T08:04:06-07:00">02/10/2026</time>
+							</div>
+							<div class="block-posts__text">
+								<p>Up to two-thirds of the human body is made of water — that's a lot of H2O! But where does all
+									that water actually live
+									in our anatomy, and why is it so important?</p>
+							</div>
+						</li>
+						<li>
+							<div class="block-posts__image">
+								<a href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">
+									<img src="img/podcasts/block-posts/2.jpg" alt="">
+								</a>
+							</div>
+							<h2 class="block-posts__title"><a
+									href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">Ep 549 - A
+									Practitioner's Mindset: “Fully Booked” with Elicia Crook</a></h2>
+							<div class="block-posts__time">
+								<time datetime="2026-02-06T05:00:00-07:00">02/06/2026</time>
+							</div>
+							<div class="block-posts__text">
+								<p>Elicia Crook discusses how clarity in your messaging helps to reduce confusion and burnout,
+									why goals help turn
+									unconscious drift into intentional growth, and how our beliefs shape our behavior and
+									actions.</p>
+							</div>
+						</li>
+						<li>
+							<div class="block-posts__image">
+								<a href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">
+									<img src="img/podcasts/block-posts/3.jpg" alt="">
+								</a>
+							</div>
+							<h2 class="block-posts__title"><a
+									href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">Ep 550 -
+									Something About Water with Rachelle Clauson and Nicole Trombley</a></h2>
+							<div class="block-posts__time">
+								<time datetime="2026-02-03T05:00:00-07:00">02/03/2026</time>
+							</div>
+							<div class="block-posts__text">
+								<p>Whitney Lowe discusses why creating a personal mission plan matters for career longevity, how
+									to use it in your
+									practice, and tips on how to find clarity in your profession.</p>
+							</div>
+						</li>
+						<li>
+							<div class="block-posts__image">
+								<a href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">
+									<img src="img/podcasts/block-posts/4.jpg" alt="">
+								</a>
+							</div>
+							<h2 class="block-posts__title"><a
+									href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">Ep 547 -
+									Hypothyroidism: “I Have a Client Who . . .” Pathology Conversations with Ruth Werner</a></h2>
+							<div class="block-posts__time">
+								<time datetime="2026-01-27T05:00:00-07:00">01/27/2026</time>
+							</div>
+							<div class="block-posts__text">
+								<p>Ruth is learning, writing, and teaching about thyroid disease in lots of different places, so
+									IHACW is coming along for
+									the ride.</p>
+							</div>
+						</li>
+						<li>
+							<div class="block-posts__image">
+								<a href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">
+									<img src="img/podcasts/block-posts/5.jpg" alt="">
+								</a>
+							</div>
+							<h2 class="block-posts__title"><a
+									href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">Ep 546 -
+									My Back Story: “Fully Booked” with Elicia Crook</a></h2>
+							<div class="block-posts__time">
+								<time datetime="2026-01-23T05:00:00-07:00">01/23/2026</time>
+							</div>
+							<div class="block-posts__text">
+								<p>In this inaugural episode of Fully Booked, Elicia Crook takes us behind the curtain of her
+									massage journey.</p>
+							</div>
+						</li>
+						<li>
+							<div class="block-posts__image">
+								<a href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">
+									<img src="img/podcasts/block-posts/6.jpg" alt="">
+								</a>
+							</div>
+							<h2 class="block-posts__title"><a
+									href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">Ep 545 -
+									Why Massage Therapy Is Sitting on a Gold Mine: “The Rebel MT” with Allison Denney</a></h2>
+							<div class="block-posts__time">
+								<time datetime="2026-01-20T05:00:00-07:00">01/20/2026</time>
+							</div>
+							<div class="block-posts__text">
+								<p>For my first episode of 2026, I'm shining a huge spotlight on what we do for a living. It's
+									all about the anatomy of our
+									belief systems, which also happens to be similar to our fascia.</p>
+							</div>
+						</li>
+						<li>
+							<div class="block-posts__image">
+								<a href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">
+									<img src="img/podcasts/block-posts/7.jpg" alt="">
+								</a>
+							</div>
+							<h2 class="block-posts__title"><a
+									href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">Ep 544 -
+									Clinical Experience: Asset, Liability, or Both? with Doug Nelson</a></h2>
+							<div class="block-posts__time">
+								<time datetime="2026-01-13T07:57:55-07:00">01/13/2026</time>
+							</div>
+							<div class="block-posts__text">
+								<p>Does more experience always lead to better outcomes? In this episode of The ABMP Podcast,
+									Doug Nelson explores both
+									sides of the experience debate.</p>
+							</div>
+						</li>
+						<li>
+							<div class="block-posts__image">
+								<a href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">
+									<img src="img/podcasts/block-posts/8.jpg" alt="">
+								</a>
+							</div>
+							<h2 class="block-posts__title"><a
+									href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">Ep 543 -
+									Awakened Sleep with Dr. Suhas Kshirsagar and Dr. Sheila Patel</a></h2>
+							<div class="block-posts__time">
+								<time datetime="2026-01-06T07:40:09-07:00">01/06/2026</time>
+							</div>
+							<div class="block-posts__text">
+								<p>In this episode of The ABMP Podcast, Angie welcomes Dr. Suhas Kshirsagar and Dr. Sheila Patel
+									to discuss their new book,
+									Awakened Sleep.</p>
+							</div>
+						</li>
+						<li>
+							<div class="block-posts__image">
+								<a href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">
+									<img src="img/podcasts/block-posts/9.jpg" alt="">
+								</a>
+							</div>
+							<h2 class="block-posts__title"><a
+									href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">Ep 542 -
+									Kidney Transplant Complications: “I Have a Client Who . . .” Pathology Conversations with
+									Ruth Werner</a></h2>
+							<div class="block-posts__time">
+								<time datetime="2025-12-09T05:00:00-07:00">12/09/2025</time>
+							</div>
+							<div class="block-posts__text">
+								<p>After a traumatic kidney transplant in 2017, a client has lived with chronic neck and head
+									pain that hasn't responded to
+									treatment. A recent CT shows calcium deposits in the cranium—could this be the cause, and can
+									massage help?</p>
+							</div>
+						</li>
+						<li>
+							<div class="block-posts__image">
+								<a href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">
+									<img src="img/podcasts/block-posts/10.jpg" alt="">
+								</a>
+							</div>
+							<h2 class="block-posts__title"><a
+									href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">Ep 541 -
+									The Top Five Techniques I Keep Coming Back To: “The Rebel MT” with Allison Denney</a></h2>
+							<div class="block-posts__time">
+								<time datetime="2025-12-02T07:55:30-07:00">12/02/2025</time>
+							</div>
+							<div class="block-posts__text">
+								<p>Allison Denney shares her top 5 techniques. She breaks down how they work, why they're so
+									effective, and why she loves
+									them.</p>
+							</div>
+						</li>
+						<li>
+							<div class="block-posts__image">
+								<a href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">
+									<img src="img/podcasts/block-posts/11.jpg" alt="">
+								</a>
+							</div>
+							<h2 class="block-posts__title"><a
+									href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">Ep 540 -
+									Exploring Gratitude with Kristin Coverly</a></h2>
+							<div class="block-posts__time">
+								<time datetime="2025-11-18T08:35:56-07:00">11/18/2025</time>
+							</div>
+							<div class="block-posts__text">
+								<p>Kristin Coverly explores the health benefits of gratitude and chats with guests Allison
+									Denney and Ann and Lynn
+									Teachworth about their gratitude practices.</p>
+							</div>
+						</li>
+						<li>
+							<div class="block-posts__image">
+								<a href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">
+									<img src="img/podcasts/block-posts/12.jpg" alt="">
+								</a>
+							</div>
+							<h2 class="block-posts__title"><a
+									href="/podcasts/ep-550-something-about-water-rachelle-clauson-and-nicole-trombley">Ep 539 -
+									Thinking In Systems Not Symptoms with Doug Nelson</a></h2>
+							<div class="block-posts__time">
+								<time datetime="2025-11-11T06:51:57-07:00">11/11/2025</time>
+							</div>
+							<div class="block-posts__text">
+								<p>In this episode of The ABMP Podcast, Doug Nelson asks if there is more of an integrated and
+									interrelated system than the
+									human body?</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="main__block-views block-views block-views--padding-block">
+				<div class="block-views__container">
+					<div class="block-views__row row">
+						<div class="block-views__col col-lg-4 mb-4 mb-lg-0">
+							<h3 class="block-views__title">News</h3>
+							<div class="block-views__link"><a href="/updates/news">View All</a></div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a
+											href="/updates/legislative-updates/vermont/vermont-enters-race-statewide-licensure-h623">Vermont
+											Enters the Race for Statewide Licensure with H623</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-02-05T12:57:04-07:00">02/05/2026</time>
+								</div>
+							</div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a
+											href="/updates/legislative-updates/texas/texas-may-verify-working-and-residency-status">Texas
+											May Verify Working and Residency Status</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-02-05T08:41:45-07:00">02/05/2026</time>
+								</div>
+							</div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a
+											href="/updates/government-relations-legislative-updates/where-interstate-massage-compact-stands-and-what-happens-next">Where
+											the Interstate Massage Compact Stands and What Happens Next</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-02-03T12:04:06-07:00">02/03/2026</time>
+								</div>
+							</div>
+						</div>
+						<div class="block-views__col col-lg-4 mb-4 mb-lg-0">
+							<h3 class="block-views__title">Blog</h3>
+							<div class="block-views__link"><a href="/updates/blog">View All</a></div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a href="/updates/blog-posts/what-business-personal-property-insurance">What is Business
+											Personal Property Insurance?</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-02-03T10:25:36-07:00">02/03/2026</time>
+								</div>
+							</div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a href="/updates/blog-posts/new-ce-course-massage-bodywork-magazine-winter-2025">New CE
+											Course: Massage & Bodywork Magazine Winter 2025</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-01-23T05:00:00-07:00">01/23/2026</time>
+								</div>
+							</div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a href="/updates/blog-posts/abmp-ce-socials-event-thoracic-spine">ABMP CE Socials Event:
+											Thoracic Spine</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-01-20T09:39:03-07:00">01/20/2026</time>
+								</div>
+							</div>
+						</div>
+						<div class="block-views__col col-lg-4 mb-lg-0">
+							<h3 class="block-views__title">Benefits</h3>
+							<div class="block-views__link"><a href="/updates/benefits">View All</a></div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a href="/updates/benefits/featured-abmp-discount-partner-custom-craftworks">Featured ABMP
+											Discount Partner: Custom Craftworks</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-01-26T08:00:00-07:00">01/26/2026</time>
+								</div>
+							</div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a href="/updates/benefits/podcast-introduction-awakened-sleep-book-and-practices">Podcast:
+											An Introduction to Awakened Sleep, Book and Practices</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-01-19T08:33:49-07:00">01/19/2026</time>
+								</div>
+							</div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a
+											href="/updates/benefits/featured-abmp-discount-partner-learnmuscles-continuing-education">Featured
+											ABMP Discount Partner: LearnMuscles Continuing Education</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-01-09T05:00:00-07:00">01/09/2026</time>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<ul class="footer__column">
+						<li><a href="#">About ABMP</a></li>
+						<li><a href="#">Massage Liability Insurance</a></li>
+						<li><a href="advertise.html">Advertising</a></li>
+						<li><a href="#">Massage CE</a></li>
+						<li><a href="#">Sitemap</a></li>
+					</ul>
+					<ul class="footer__column">
+						<li><a href="#">Massage Therapist Jobs</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Copyright Policy</a></li>
+						<li><a href="#">Terms of Use</a></li>
+					</ul>
+					<address class="footer__column">
+						25188 Genesee Trail Road, Ste 200
+						Golden, CO 80401
+						<a style="display: block;inline-size: fit-content;"
+							href="mailto:expectmore@abmp.com">expectmore@abmp.com</a>
+						<a style="display: block;inline-size: fit-content;" href="tel:8004582267">800-458-2267</a>
+					</address>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__copyright">© 2026 Associated Bodywork & Massage Professionals. All rights reserved.
+					</div>
+					<ul class="footer__icons footer__icons--contain">
+						<li><a class="footer__icon footer__icon--hover" href="https://www.facebook.com/ABMPpage">
+								<i class="fa-brands fa-facebook"></i>
+							</a></li>
+						<li><a class="footer__icon footer__icon--hover" href="https://twitter.com/ABMPmassage">
+								<i class="fa-brands fa-x-twitter"></i>
+							</a></li>
+						<li><a class="footer__icon footer__icon--hover" href="https://www.instagram.com/abmpmassage/">
+								<i class="fa-brands fa-instagram"></i>
+							</a></li>
+						<li><a class="footer__icon footer__icon--hover" href="https://www.linkedin.com/groups?gid=48268e">
+								<i class="fa-brands fa-linkedin"></i>
+							</a></li>
+						<li><a class="footer__icon footer__icon--hover" href="https://www.youtube.com/user/ABMPmassage">
+								<i class="fa-brands fa-youtube"></i>
+							</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://kit.fontawesome.com/f8eacd1ba9.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
