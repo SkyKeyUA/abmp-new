@@ -1,0 +1,30 @@
+.two-columns {
+	&--margin-bottom {
+		margin-block-end: 3.75rem; /* 60/16 */
+	}
+	// .two-columns__item
+	&__item {
+		display: grid;
+		gap: 1.5rem; /* 24/16 */
+		a {
+			display: inline;
+		}
+		@media (min-width: 767.98px) {
+			grid-template-columns: minmax(18.75rem, 1fr) 2fr;
+		}
+		&:not(:last-child) {
+			margin-block-end: 1.5rem; /* 24/16 */
+		}
+	}
+
+	// .two-columns__image
+
+	&__image {
+		align-self: start;
+	}
+
+	// .two-columns__content
+
+	&__content {
+	}
+}

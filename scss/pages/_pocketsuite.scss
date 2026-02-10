@@ -26,6 +26,12 @@
 			}
 		}
 	}
+	h3 {
+		font-weight: 400;
+		font-size: 1.40625rem; /* 22.5/16 */
+		line-height: 1.2;
+		color: var(--color-black-80);
+	}
 	strong {
 		font-weight: 500;
 	}
@@ -121,10 +127,22 @@
 	// .pocketsuite__links
 
 	&__links {
+		&--margin-bottom {
+			margin-block-end: 2.5rem; /* 40/16 */
+		}
 	}
 
 	// .pocketsuite__link
 
 	&__link {
+	}
+
+	&__info-line {
+		margin-block-end: 3rem; /* 48/16 */
+		p {
+			font-size: 1.4063rem;
+			color: var(--color-blue-60);
+			font-weight: 400;
+		}
 	}
 }
