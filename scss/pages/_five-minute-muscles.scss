@@ -10,6 +10,21 @@
 	p {
 		margin-block-end: 1rem; /* 16/16 */
 	}
+
+	&__strong {
+		a {
+			display: inline;
+			text-decoration: underline;
+			text-underline-offset: 0.125rem;
+			text-decoration-color: var(--color-green-60);
+			@media (any-hover: hover) {
+				transition: color 0.3s;
+				&:hover {
+					color: var(--color-green-60);
+				}
+			}
+		}
+	}
 	// .muscles-app__container
 
 	&__container {
