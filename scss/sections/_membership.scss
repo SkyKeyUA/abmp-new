@@ -1,6 +1,12 @@
 .membership {
 	&--padding-block {
 		padding-block: 6.25rem 3.75rem;
+		@media (max-width: 767.98px) and (min-width: 479.98px) {
+			padding-block: 2.5rem; /* 40/16 */
+		}
+		@media (max-width: 479.98px) {
+			padding-block: 1.875rem; /* 30/16 */
+		}
 	}
 
 	// .membership__container

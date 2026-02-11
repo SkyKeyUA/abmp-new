@@ -1168,6 +1168,16 @@ input:focus {
 .feedback--padding-block {
   padding-block: 3.125rem 1.875rem;
 }
+@media (max-width: 767.98px) and (min-width: 479.98px) {
+  .feedback--padding-block {
+    padding-block: 2.5rem 1.875rem; /* 40/16 */
+  }
+}
+@media (max-width: 479.98px) {
+  .feedback--padding-block {
+    padding-block: 1.875rem; /* 30/16 */
+  }
+}
 .feedback__container {
   position: relative;
 }
@@ -1483,6 +1493,16 @@ input:focus {
 .membership--padding-block {
   padding-block: 6.25rem 3.75rem;
 }
+@media (max-width: 767.98px) and (min-width: 479.98px) {
+  .membership--padding-block {
+    padding-block: 2.5rem; /* 40/16 */
+  }
+}
+@media (max-width: 479.98px) {
+  .membership--padding-block {
+    padding-block: 1.875rem; /* 30/16 */
+  }
+}
 .membership__container .cards-membership:nth-of-type(1) .cards-membership__item:first-child .cards-membership__inner {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(73, 146, 196, 0)), to(rgb(32, 61, 104))) rgb(73, 146, 196);
   background: linear-gradient(rgba(73, 146, 196, 0) 0%, rgb(32, 61, 104) 100%) rgb(73, 146, 196);
@@ -1576,6 +1596,16 @@ input:focus {
 .inspiration--padding-block {
   padding-block: 3.75rem; /* 60/16 */
 }
+@media (max-width: 767.98px) and (min-width: 479.98px) {
+  .inspiration--padding-block {
+    padding-block: 2.5rem; /* 40/16 */
+  }
+}
+@media (max-width: 479.98px) {
+  .inspiration--padding-block {
+    padding-block: 1.875rem; /* 30/16 */
+  }
+}
 .inspiration__title {
   font-size: 1.75rem; /* 28/16 */
   line-height: 1.2;
@@ -1642,6 +1672,16 @@ input:focus {
 .block-views--padding-block {
   padding-block: 1.875rem 5.625rem;
 }
+@media (max-width: 767.98px) and (min-width: 479.98px) {
+  .block-views--padding-block {
+    padding-block: 1.875rem 2.5rem; /* 40/16 */
+  }
+}
+@media (max-width: 479.98px) {
+  .block-views--padding-block {
+    padding-block: 1.875rem; /* 30/16 */
+  }
+}
 .block-views__title {
   font-size: 1.375rem;
   line-height: 1.2;
@@ -1700,6 +1740,16 @@ input:focus {
 
 .subscriptions--padding-block {
   padding-block: 3.75rem; /* 60/16 */
+}
+@media (max-width: 767.98px) and (min-width: 479.98px) {
+  .subscriptions--padding-block {
+    padding-block: 2.5rem; /* 40/16 */
+  }
+}
+@media (max-width: 479.98px) {
+  .subscriptions--padding-block {
+    padding-block: 1.875rem; /* 30/16 */
+  }
 }
 .subscriptions--contact-us .subscriptions__row {
   -webkit-margin-after: 6.25rem;
@@ -1829,6 +1879,16 @@ input:focus {
 .discover--padding-block {
   padding-block: 3.75rem 5rem; /* 80/16 */
 }
+@media (max-width: 767.98px) and (min-width: 479.98px) {
+  .discover--padding-block {
+    padding-block: 2.5rem; /* 40/16 */
+  }
+}
+@media (max-width: 479.98px) {
+  .discover--padding-block {
+    padding-block: 1.875rem; /* 30/16 */
+  }
+}
 .discover__body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1913,6 +1973,16 @@ input:focus {
 
 .block-posts--padding-block {
   padding-block: 1.875rem 3.75rem; /* 60/16 */
+}
+@media (max-width: 767.98px) and (min-width: 479.98px) {
+  .block-posts--padding-block {
+    padding-block: 1.875rem 2.5rem; /* 40/16 */
+  }
+}
+@media (max-width: 479.98px) {
+  .block-posts--padding-block {
+    padding-block: 1.875rem; /* 30/16 */
+  }
 }
 .block-posts__list {
   display: grid;
