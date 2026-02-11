@@ -46,6 +46,10 @@
 }
 .info-line {
 	max-inline-size: 58.75rem; /* 940/16 */
+	&--padding-inline {
+		padding-inline: 1rem; /* 16/16 */
+		max-inline-size: 60.75rem; /* 972/16 */
+	}
 	margin-inline: auto;
 	display: flex;
 	@media (min-width: 767.98px) {

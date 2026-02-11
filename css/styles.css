@@ -990,6 +990,10 @@ input:focus {
   display: -ms-flexbox;
   display: flex;
 }
+.info-line--padding-inline {
+  padding-inline: 1rem; /* 16/16 */
+  max-inline-size: 60.75rem; /* 972/16 */
+}
 @media (min-width: 767.98px) {
   .info-line {
     -webkit-column-gap: 4.375rem;
