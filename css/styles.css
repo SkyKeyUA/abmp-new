@@ -1062,6 +1062,18 @@ input:focus {
   -webkit-margin-after: 5rem;
           margin-block-end: 5rem; /* 80/16 */
 }
+@media (max-width: 767.98px) and (min-width: 479.98px) {
+  .section-header--margin-bottom {
+    -webkit-margin-after: 2.5rem;
+            margin-block-end: 2.5rem; /* 40/16 */
+  }
+}
+@media (max-width: 479.98px) {
+  .section-header--margin-bottom {
+    -webkit-margin-after: 1.5rem;
+            margin-block-end: 1.5rem; /* 24/16 */
+  }
+}
 .section-header__title {
   font-size: 1.75rem; /* 28/16 */
   line-height: 1.2;
@@ -1760,6 +1772,10 @@ input:focus {
   .subscriptions--padding-block {
     padding-block: 1.875rem; /* 30/16 */
   }
+}
+.subscriptions--padding-block.subscriptions--padding-top {
+  -webkit-padding-before: 3.75rem;
+          padding-block-start: 3.75rem; /* 60/16 */
 }
 .subscriptions--contact-us .subscriptions__row {
   -webkit-margin-after: 6.25rem;

@@ -7,6 +7,9 @@
 		@media (max-width: 479.98px) {
 			padding-block: 1.875rem; /* 30/16 */
 		}
+		&.subscriptions--padding-top {
+			padding-block-start: 3.75rem; /* 60/16 */
+		}
 	}
 	&--contact-us {
 		.subscriptions__row {
