@@ -702,6 +702,7 @@ input:focus {
   font-size: 1.40625rem; /* 22.5/16 */
   -webkit-margin-after: 0;
           margin-block-end: 0;
+  text-transform: none;
 }
 @media (min-width: 767.98px) {
   .row-four {
