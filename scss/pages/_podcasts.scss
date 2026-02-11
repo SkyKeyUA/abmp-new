@@ -41,25 +41,4 @@
 	&__image-hero {
 		margin-block-end: 3.75rem; /* 60/16 */
 	}
-
-	// .podcasts-hero__apps
-
-	&__apps {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.3125rem; /* 5/16 */
-		&--border-bottom {
-			padding-block-end: 1.125rem; /* 18/16 */
-			border-block-end: 0.125rem solid var(--color-black-80);
-		}
-		li {
-			inline-size: 12.5rem; /* 200/16 */
-			aspect-ratio: 200 / 49;
-			a {
-				inline-size: 100%;
-				block-size: 100%;
-				object-fit: contain;
-			}
-		}
-	}
 }

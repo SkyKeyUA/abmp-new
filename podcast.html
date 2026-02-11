@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" href="favicon.ico" type="image/png">
+	<title>Listen & Learn | ABMP Podcasts for Massage Professionals
+	</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo logo logo--contain">
+					<a aria-label="Go to Home Page" href="/">
+						<img src="img/ABMP-logo.svg" alt="ABMP logo">
+					</a>
+				</div>
+				<div class="header__actions actions">
+					<ul class="actions__list">
+						<li><a href="tel:8004582267" class="actions__tel">800-458-2267</a></li>
+						<li><a href="https://www.abmp.com/signup" class="actions__sign-up">Join</a></li>
+						<li><a href="https://www.abmp.com/members/renew" class="actions__renew">Renew</a></li>
+					</ul>
+					<div class="actions__links"><a href="https://www.abmp.com/members"
+							class="actions__link link link--blue">Account Login</a></div>
+				</div>
+				<div class="header__navigation navigation">
+					<button aria-label="open/close menu" class="navigation__icon-menu icon-menu"><span></span></button>
+					<nav class="navigation__menu menu">
+						<ul class="menu__list">
+							<li class="menu__has-submenu">
+								<button type="button" class="menu__dropdown" aria-label="open/close submenu">Member
+									Benefits</button>
+								<ul class="menu__submenu submenu">
+									<li><a href="https://www.abmp.com/practitioners">Practitioners</a></li>
+									<li><a href="https://www.abmp.com/employers">Employers</a></li>
+									<li><a href="https://www.abmp.com/five-minute-muscles">ABMP Five-Minute Muscles</a></li>
+									<li><a href="https://www.abmp.com/abmp-pocket-pathology-app">ABMP Pocket Pathology</a></li>
+									<li><a href="https://www.abmp.com/discounts">Member Discounts</a></li>
+									<li><a href="https://www.abmp.com/pocketsuite">Free Online Scheduling</a></li>
+								</ul>
+							</li>
+							<li class="menu__has-submenu">
+								<button type="button" class="menu__dropdown" aria-label="open/close submenu">Massage
+									Insurance</button>
+								<ul class="menu__submenu submenu">
+									<li><a href="https://www.abmp.com/massage-liability-insurance">Massage Therapist
+											Insurance</a></li>
+									<li><a href="https://www.abmp.com/students/insurance-massage-students">Massage Student
+											Insurance</a></li>
+									<li><a href="https://www.abmp.com/educators/insurance-massage-schools">MassageSchool
+											Insurance</a></li>
+								</ul>
+							</li>
+							<li class="menu__has-submenu">
+								<button type="button" class="menu__dropdown" aria-label="open/close submenu">Continuing
+									Education</button>
+								<ul class="menu__submenu submenu">
+									<li><a href="https://www.abmp.com/learn">ABMP Education Center</a></li>
+									<li><a href="https://www.abmp.com/ce-socials">ABMP CE Socials</a></li>
+									<li><a href="https://www.abmp.com/summit">ABMP CE Summit</a></li>
+								</ul>
+							</li>
+							<li class="menu__has-submenu">
+								<button type="button" class="menu__dropdown" aria-label="open/close submenu">Students &
+									Schools</button>
+								<ul class="menu__submenu submenu">
+									<li><a href="https://www.abmp.com/students">Students</a></li>
+									<li><a href="https://www.abmp.com/educators">Educators</a></li>
+									<li><a href="https://www.abmp.com/students/abmp-exam-coach-plus">ABMP Exam Coach MBLEx Test
+											Prep</a></li>
+									<li><a href="https://www.abmp.com/mblex-prep-schools">MBLEx Test Prep for Schools</a></li>
+									<li><a href="https://www.abmp.com/cornerstones">Cornerstones Instructor Development</a></li>
+									<li><a href="https://www.abmp.com/educators/abmp-school-forums">ABMP School Forum</a></li>
+									<li><a href="https://www.abmp.com/student-membership-benefits-video">Student Resource
+											Tour</a></li>
+									<li><a href="https://www.abmp.com/order-school-marketing-materials">Order Marketing
+											Materials</a></li>
+									<li><a href="https://www.abmp.com/massage-school-directory">Massage School Directory</a></li>
+								</ul>
+							</li>
+							<li class="menu__has-submenu">
+								<button type="button" class="menu__dropdown" aria-label="open/close submenu">Resources</button>
+								<ul class="menu__submenu submenu">
+									<li><a href="https://www.abmp.com/massage-and-bodywork-magazine">Massage & Bodywork
+											Magazine</a></li>
+									<li><a href="https://www.abmp.com/podcasts">The ABMP Podcast</a></li>
+									<li><a href="https://www.abmp.com/events">Events</a></li>
+									<li><a href="https://www.massagetherapy.com/">MassageTherapy.com</a></li>
+									<li><a href="https://jobs.abmp.com/" target="_blank">ABMP Career Center</a></li>
+									<li><a href="https://respectmassage.com/" target="_blank">RespectMassage.com</a></li>
+									<li><a href="https://www.abmp.com/advocacy">Legislative Advocacy</a></li>
+									<li><a href="https://www.abmp.com/updates/blog">Massage Blog</a></li>
+									<li><a href="https://www.abmp.com/updates/news">Massage News</a></li>
+									<li><a href="https://www.abmp.com/massage-week-intro">ABMP Massage Week</a></li>
+									<li><a href="https://www.abmp.com/abmp-reviews">ABMP Testimonials</a></li>
+									<li><a href="https://www.abmp.com/abmp-code-ethics">ABMP Code of Ethics</a></li>
+									<li><a href="https://www.abmp.com/covid-updates">COVID-19 Resources</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="main__breadcrumbs breadcrumbs">
+				<div class="breadcrumbs__container">
+					<ol>
+						<li>
+							<a href="/">Home</a>
+						</li>
+						<li>
+							<a href="/podcasts">ABMP Podcasts</a>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<div class="main__podcast-hero podcast-hero">
+				<div class="podcast-hero__container">
+					<h1>Ep 195 - The Levator Scapulae: That Which Cannot Be Fixed:"The Rebel MT"with Allison Denney</h1>
+					<ul class="podcast-hero__logo-apps logo-apps logo-apps--contain">
+						<li>
+							<a href="https://podcasts.apple.com/us/podcast/the-abmp-podcast-speaking-with-the/id1509599014"
+								target="_blank"><img src="img/podcasts/1.png" alt="" loading="lazy"></a>
+						</li>
+						<li>
+							<a href="https://open.spotify.com/show/2XYpoXoaZSUl0XW4BMUipw" target="_blank"><img
+									src="img/podcasts/2.png" alt="" loading="lazy"></a>
+						</li>
+					</ul>
+					<div class="podcast-hero__image-hero podcast-hero__image-hero--contain">
+						<img src="img/podcast/1.png" alt="hero">
+					</div>
+					<p>How do we fix something that can't be fixed? We can't. But a good look at the levator scapulae gives
+						us some insights
+						into how we perceive pain, how our clients might perceive pain, and what, exactly, we can do with all
+						that perception.
+						Join Allison in pondering this powerful muscle and the lessons it might teach us if we begin to pivot
+						how we listen.</p>
+					<div class="podcast-hero__author-block author-block">
+						<div class="author-block__label">Author Images</div>
+						<div class="author-block__image author-block__image--contain">
+							<img src="img/podcast/2.jpg" alt="author image">
+						</div>
+					</div>
+					<div class="podcast-hero__label">Author Bio</div>
+					<p>Allison Denney is a certified massage therapist and certified YouTuber. You can find her massage
+						tutorials at <a href="http://YouTube.com/RebelMassage" target="_blank">YouTube.com/RebelMassage</a>.
+						She is also passionate about
+						creating products that are kind, simple, and productive for therapists to use in their practices. Her
+						products, along
+						with access to her blog and CE opportunities, can be found at <a href="http://rebelmassage.com"
+							target="_blank">rebelmassage.com</a>.â€¯</p>
+					<div class="podcast-hero__label">Author URLs</div>
+					<div class="podcast-hero__urls">
+						<div class="podcast-hero__name">Allisonâ€™s website:</div>
+						<div class="podcast-hero__url"><a href="http://www.rebelmassage.com" target="_blank"
+								rel="nofollow">http://www.rebelmassage.com</a></div>
+					</div>
+					<div class="podcast-hero__label">Sponsors</div>
+					<p>This podcast sponsored by:</p>
+					<ul class="podcast-hero__list">
+						<li><a href="http://www.anatomytrains.com" target="_blank">Anatomy Trains</a></li>
+						<li><a href="http://www.themassagementorinstitute.com" target="_blank">The Massage Mentor
+								Institute</a></li>
+					</ul>
+					<h2>Anatomy Trains:</h2>
+					<p>Anatomy Trains is a global leader in online anatomy education and also provides in-classroom
+						certification programs
+						forstructuralintegration in the US, Canada, Australia, Europe, Japan, and China, as well as
+						fresh-tissue
+						cadaverdissectionlabs and weekend courses. The work of Anatomy Trains originated with founder Tom
+						Myers, who mapped
+						the human body into 13 myofascial meridians in his original book, currently in itsfourthedition and
+						translated into
+						12 languages. The principles of Anatomy Trains are used by
+						osteopaths,physicaltherapists,bodyworkers,massagetherapists,personaltrainers,yoga,Pilates,Gyrotonics,and
+						other
+						body-minded manual therapists and movement professionals. Anatomy Trains inspires these practitioners
+						to work with
+						holistic anatomy in treating system-wide patterns to provide improved client outcomes in terms of
+						structure and
+						function.</p>
+					<ul class="podcast-hero__contacts">
+						<li>Website:<a href="http://anatomytrains.com" target="_blank">anatomytrains.com</a></li>
+						<li>Email:<a href="mailto:info@anatomytrains.com">info@anatomytrains.com</a></li>
+						<li>Facebook:<a href="http://facebook.com/AnatomyTrains"
+								target="_blank">facebook.com/AnatomyTrains</a></li>
+						<li>Instagram: <a href="http://instagram.com/anatomytrainsofficial"
+								target="_blank">instagram.com/anatomytrainsofficial</a></li>
+						<li>YouTube:<a href="http://www.youtube.com/channel/UC2g6TOEFrX4b-CigknssKHA"
+								target="_blank">youtube.com/channel/UC2g6TOEFrX4b-CigknssKHA</a></li>
+					</ul>
+					<div class="podcast-hero__label">Full Transcript</div>
+					<div class="podcast-hero__text">
+						<p>0:00:00.0 Speaker 1: This episode is brought to you by Rebel Massage, Deep Tissue Body Butter.
+							Crafted because oil is
+							too slick and lotion absorbs too fast, these organic professional grade body work butters give you
+							the grip you've
+							been looking for. The best techniques in the world can get lost without the right product to
+							support them. Try the
+							Get a Grip version for a more specific focused work or the Total Meltdown version for that grip
+							with a little extra
+							glide, made by a massage therapist for massage therapists. Head over to rebelmassage.com to get
+							your grip today.
+							[music] 0:00:42.9 S1: Anatomy Trains is thrilled to announce our first ever Women's Health
+							Symposium. This live
+							online event takes place February 26 and 27, 2022 AWST, that's Australian Western Standard Time.
+							Register by January
+							21st to receive a significant early bird discount and over $400 worth of bonuses. We have invited a
+							powerful line-up
+							of all female authors, Physicians, therapists and clinicians to share their passion and life's
+							work. Visit
+							anatomytrains.com for details. [music] 0:01:29.1 Allison Denney: Hi, my name is Allison Denney and
+							this is The Rebel
+							MT podcast, where you'll hear me forcibly colliding the worlds of anatomical jargon and humor. I
+							believe that when
+							you know your anatomy, the what, and you know your physiology, the how, the techniques will follow.
+							But the loads of
+							Latin and the gobs of Greek can make a cranium convulse. It is a little overwhelming to dip your
+							toe into the sea of
+							anatomical knowledge, only to find that it is a bottomless ocean. You are smart, but this is
+							intimidating. You will
+							get there eventually. In the meantime, let's look at things differently so that you will actually
+							want to take a swim
+							or at least hop on a boat and take a peak at what's under the surface. [music] 0:02:15.3 AD: I had
+							a client once who
+							called and demanded a promise that I would fix her if she came in to see me, a relative newbie in
+							the field at the
+							time with an over-inflated sense of confidence, I promised. I said, "I got you, I have a couple of
+							tricks up my
+							sleeve." What? Needless to say, I became immediately bogged down with a grip of emotions spanning
+							from a deep desire
+							to rise to the occasion and an inflated ego telling me that I actually could, to total confusion
+							about how I would
+							manage this, and then of course, the humiliation in realizing that they experienced a momentary
+							lapse of reason.
+							Fixing someone is not a thing. Everyone seems to want to be fixed. But it is, in reality, just not
+							a thing. And there
+							are many layers to this. A heap of philosophers will debate for days, weeks, months and years
+							around this topic. But
+							for today, I'm going to explore two of the main layers that are integral to the work we do as
+							massage therapists.
+							0:03:21.6 AD: First, there is the client and their perception of fixing pain and then there is us
+							and our desire to
+							do the fixing. The very curious and complicated subject of pain and suffering is one that circles
+							the work we do
+							constantly. How do we get a client to express what they feel? How do we know what they think is
+							normal? And how do we
+							know if we are doing the right work, the work they need in that moment? We don't, really. There are
+							lots of great
+							indicators to help us determine if our work is productive or not, but there are also a lot of
+							factors that we have no
+							control over. Whether or not a client is doing the necessary steps to help themselves when they are
+							not in our office
+							is out of our hands. Whether or not the work we do will last an hour or a day or a week is
+							difficult to predict. And
+							whether or not a client is just really nice and thanks us for the amazing job we just did because
+							they want us to
+							feel good for working so hard that they complement our work, even though they wince and find
+							bruises once they get
+							home, might be the actual reality. 0:04:30.1 AD: So pain, and a client's perception of pain, is a
+							lot more convoluted
+							than a chart that indicates which face emoji they most relate to in that moment. A client, like the
+							one I mentioned
+							in the beginning who demanded to be fixed, has a set notion of expectations and the lens through
+							which they
+							experienced life that dictates how our interaction with them lands. Then there is our perception.
+							Most of us got into
+							this field out of a desire to help others, we know people experience pain and we want to help. But
+							even that simple
+							momentum is convoluted, it is noble indeed to want to help, but helping others often appeases a
+							deeper desire to be
+							the hero, so to speak, and this complicates things. To be the person who comes to the rescue is
+							something that feeds
+							our ego on some deep level, whether we like to admit it or not. 0:05:29.3 AD: Just like our client
+							who is doing who
+							knows what when we are not directly influencing their issue or dysfunction, we are equally as
+							bogged down with
+							cognitive and emotional lenses that shift how or why we do what we do. Many of us grow attached to
+							the outcome, many
+							of us feel some version of pain or suffering when we are not fixing our clients, and many of us
+							have a difficult time
+							separating our true purpose from these sticky layers of perception. Psychologists, neurologists,
+							Buddhists, and many,
+							many others have written timelessly about the intrinsic relationship between suffering and
+							happiness. Without going
+							too far down that road, I want to explore the actual techniques of what to do when a person is in
+							pain or suffering
+							and how to navigate all the lenses of our interactions. The Levator Scapula is the perfect muscle
+							for this topic. It
+							is one that causes both clients and body workers a frustrating amount of irritation. It commonly
+							holds a chronic
+							contraction, it cramps up and sends referring pain throughout the head and neck, and it doesn't
+							seem to want to let
+							go. 0:06:42.2 AD: The client is upset because they feel the grip this muscle has and they want to
+							sometimes literally
+							rip it out of their necks, and the massage therapist is frustrated because it does not appear to
+							respond very well to
+							the work. All the trigger point therapy, pin and stretches and positional releases in the world
+							only scratch the
+							surface. That damn muscle invariably fires back and make everyone mad, it seems to have a mind of
+							its own. Let's look
+							at the details. A skeletal muscle is made of muscle fibers. We sometimes even call a skeletal
+							muscle striated because
+							of what the fibers look like under a microscope. Looking even deeper, each of those fires has
+							little tiny
+							micro-filaments inside of them called actin and myosin that want to grab on to each other and hug
+							each other really
+							tightly. When they do, they squeeze so tight that they actually pull the ends of the muscle closer
+							together, and the
+							ends, being attached to two different bones, start to move. Hence, the bones themselves shift
+							positions and voila! We
+							have joint movement. Human Anatomy really is a spectacular thing. 0:07:52.7 AD: Anyway, for the
+							Levator Scapula, the
+							bones this muscle brings closer together are the neck bone and the shoulder bone, more
+							specifically, the first
+							through fourth transverse processes of the cervical vertebrae and the medial border of the scapula,
+							between the
+							superior angle and the spine and the scapula. So yeah, the neck bone and the shoulder bone. So when
+							those little
+							actin and myosin filaments start hugging, the shoulder starts to move closer to the neck and the
+							neck starts to move
+							closer to the shoulder. Mostly the former, but it's never really just one or the other. In broader
+							terms, though, the
+							Levator Scapula wants to shrug the shoulder up to the ears, it's what it was born to do. It also
+							wants, very badly,
+							thank you very much, to pull the ear to the shoulder. It's purpose in life, so to speak, is to help
+							you keep your
+							phone in place, so you can talk to your friends while cooking dinner, and you don't have the time
+							to find your
+							earbuds. It's got a serious job, and it takes that job very seriously. The problem is this, the
+							Levator Scapula is so
+							good at what it does that it does it way more than we really need it to. Kind of like when a kid
+							learns a new task,
+							like tying his shoe, and now all of a sudden everyone needs their shoes tied and he's gonna be the
+							one doing it.
+							0:09:06.6 AD: Not really the most efficient activity, but that kid is a shoe tying machine, there
+							is no stopping him.
+							And there is, in a sense, no stopping the Levator Scapula either. Which brings me to my bottom
+							line, how do we stop
+							something which can't be stopped? We don't, we just choose a different lens of perception. Remember
+							how we really
+							wanna fix things? Maybe that's not the end goal. Maybe the end goal is to find new methods of
+							management. If the
+							client is frustrated because this muscle is creating chronic pain issues, and you're frustrated
+							because your client
+							doesn't seem to be listening to when you're telling him or her to let go, hanging out in your
+							frustration is not
+							productive for either one of you. Trying to fix that which can't be fixed is not a path lined with
+							flowers and
+							rainbows, it is solid concrete and not very fun. 0:10:03.1 AD: Fixing a Levator Scapula is a lot
+							like fixing anger.
+							We are born with this ability, and it serves a purpose. Anger, as angering as it may be, helps us
+							to defend that
+							which needs defending. Anger rises to the occasion when a muffled voice needs to speak or a cog in
+							the chain is
+							broken and is preventing us from moving forward. But anger, much like the fibers of the Levator
+							Scapula, isn't aware
+							that it can be problematic, so getting angry at anger is futile. Try this, next time you've got a
+							client in your
+							office with a rogue Levator Scapula, start by honoring it for doing exactly what it's supposed to
+							do. However you
+							wanna do this is up to you. Silently, in your own head, speaking directly to it and risking the
+							chance that your
+							client thinks you've lost your marbles or a candle lit seance with your client and all of his or
+							her loved ones
+							holding hands in a circle, it doesn't matter how you do it. What's important is that you shift your
+							perspective.
+							0:11:06.6 AD: Once you've pivoted, your work becomes more about moving with this muscle as opposed
+							to against it.
+							Find the position it feels most at ease in and go from there, if the shoulder is being hiked up to
+							an ear, try
+							holding that Levator Scapula with one hand and using your other hand to hike that shoulder up even
+							higher and then
+							see how it reacts. Maybe it goes into spasm because it didn't really think you were gonna do that
+							and you just called
+							its bluff. Maybe it locks up even more and stubbornly refuses to show any signs of weakness, or
+							maybe it actually
+							starts to soften because, dang, if that muscle isn't exhausted. The point is, not every Levator
+							Scapula is going to
+							act the same from client to client and how you handle yourself in each session is going to be
+							equally as different.
+							0:11:56.6 AD: Remember that the complicated layers to what defines pain is going to present
+							uniquely with each
+							client. Remember also that your role here is not necessarily one of the hero, it is one of
+							observing. Watch how this
+							muscle responds, listen to what your client is telling you and feel for what technique might be
+							appropriate for right
+							now. You don't need to be the fixer. Your client want space to just be, more than anything else.
+							And this powerhouse
+							of a neck muscle just wants to do what it's supposed to do, you can't blame it for that. This new
+							mindset might even
+							be the thing that breaks the code. You and your client might actually be able to hop off that
+							chronic pain and
+							frustration cycle and start something new. 0:12:48.3 AD: And here we are, the end of the episode.
+							Thank you to the
+							extraordinary crew over at ABMP for helping me get my words into your ears. And if you wanna get
+							any of your words
+							into my ears or, more accurately, into my brain via my eyeballs from a computer screen, drop me a
+							line at <a href="mailto:rebelmt@abmp.com">rebelmt@abmp.com</a>. That's <a
+								href="mailto:R-E-B-E-L-M-T@ambp.com">R-E-B-E-L-M-T@ambp.com</a>. I always wanna hear your
+							questions, comments,
+							suggestions or salutations. Also, if you're interested in checking out anything else I'm doing,
+							head over to
+							rebelmassage.com where you will find all sorts of fun things to click on, like homemade organic
+							products for your
+							practice, cool links to continuing education classes, thoughts I have typed up and posted here and
+							there and other
+							rebel massage dabblings. [music] 0:13:37.7 S1: Members are loving ABMP five-minute muscles and ABMP
+							Pocket Pathology,
+							two Quick Reference web apps included with ABMP membership. ABMP five-minute muscles delivers
+							muscle specific
+							palpation and technique videos plus origins insertions and actions for the 83 muscles most commonly
+							addressed by body
+							workers. ABMP Pocket Pathology, created in conjunction with Ruth Werner, puts key information for
+							nearly 200 common
+							pathologies at your fingertips and provides the knowledge you need to help you make informed
+							treatment decisions.
+							Start learning today. ABMP members log in at abmp.com and look for the links in the Featured
+							Benefits section of your
+							Member Home Page. Not a member? Learn about these exciting member benefits at abmp.com/more.</p>
+					</div>
+				</div>
+			</div>
+			<section class="main__block-views block-views block-views--padding-block">
+				<div class="block-views__container">
+					<div class="block-views__row row">
+						<div class="block-views__col col-lg-4 mb-4 mb-lg-0">
+							<h3 class="block-views__title">News</h3>
+							<div class="block-views__link"><a href="/updates/news">View All</a></div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a
+											href="/updates/legislative-updates/vermont/vermont-enters-race-statewide-licensure-h623">Vermont
+											Enters the Race for Statewide Licensure with H623</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-02-05T12:57:04-07:00">02/05/2026</time>
+								</div>
+							</div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a
+											href="/updates/legislative-updates/texas/texas-may-verify-working-and-residency-status">Texas
+											May Verify Working and Residency Status</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-02-05T08:41:45-07:00">02/05/2026</time>
+								</div>
+							</div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a
+											href="/updates/government-relations-legislative-updates/where-interstate-massage-compact-stands-and-what-happens-next">Where
+											the Interstate Massage Compact Stands and What Happens Next</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-02-03T12:04:06-07:00">02/03/2026</time>
+								</div>
+							</div>
+						</div>
+						<div class="block-views__col col-lg-4 mb-4 mb-lg-0">
+							<h3 class="block-views__title">Blog</h3>
+							<div class="block-views__link"><a href="/updates/blog">View All</a></div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a href="/updates/blog-posts/what-business-personal-property-insurance">What is Business
+											Personal Property Insurance?</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-02-03T10:25:36-07:00">02/03/2026</time>
+								</div>
+							</div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a href="/updates/blog-posts/new-ce-course-massage-bodywork-magazine-winter-2025">New CE
+											Course: Massage & Bodywork Magazine Winter 2025</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-01-23T05:00:00-07:00">01/23/2026</time>
+								</div>
+							</div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a href="/updates/blog-posts/abmp-ce-socials-event-thoracic-spine">ABMP CE Socials Event:
+											Thoracic Spine</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-01-20T09:39:03-07:00">01/20/2026</time>
+								</div>
+							</div>
+						</div>
+						<div class="block-views__col col-lg-4 mb-lg-0">
+							<h3 class="block-views__title">Benefits</h3>
+							<div class="block-views__link"><a href="/updates/benefits">View All</a></div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a href="/updates/benefits/featured-abmp-discount-partner-custom-craftworks">Featured ABMP
+											Discount Partner: Custom Craftworks</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-01-26T08:00:00-07:00">01/26/2026</time>
+								</div>
+							</div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a href="/updates/benefits/podcast-introduction-awakened-sleep-book-and-practices">Podcast:
+											An Introduction to Awakened Sleep, Book and Practices</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-01-19T08:33:49-07:00">01/19/2026</time>
+								</div>
+							</div>
+							<div class="block-views__content">
+								<div class="block-views__text">
+									<p><a
+											href="/updates/benefits/featured-abmp-discount-partner-learnmuscles-continuing-education">Featured
+											ABMP Discount Partner: LearnMuscles Continuing Education</a></p>
+								</div>
+								<div class="block-views__time">
+									<time datetime="2026-01-09T05:00:00-07:00">01/09/2026</time>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<ul class="footer__column">
+						<li><a href="#">About ABMP</a></li>
+						<li><a href="#">Massage Liability Insurance</a></li>
+						<li><a href="advertise.html">Advertising</a></li>
+						<li><a href="#">Massage CE</a></li>
+						<li><a href="#">Sitemap</a></li>
+					</ul>
+					<ul class="footer__column">
+						<li><a href="#">Massage Therapist Jobs</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Copyright Policy</a></li>
+						<li><a href="#">Terms of Use</a></li>
+					</ul>
+					<address class="footer__column">
+						25188 Genesee Trail Road, Ste 200
+						Golden, CO 80401
+						<a style="display: block;inline-size: fit-content;"
+							href="mailto:expectmore@abmp.com">expectmore@abmp.com</a>
+						<a style="display: block;inline-size: fit-content;" href="tel:8004582267">800-458-2267</a>
+					</address>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__copyright">© 2026 Associated Bodywork & Massage Professionals. All rights reserved.
+					</div>
+					<ul class="footer__icons footer__icons--contain">
+						<li><a class="footer__icon footer__icon--hover" href="https://www.facebook.com/ABMPpage">
+								<i class="fa-brands fa-facebook"></i>
+							</a></li>
+						<li><a class="footer__icon footer__icon--hover" href="https://twitter.com/ABMPmassage">
+								<i class="fa-brands fa-x-twitter"></i>
+							</a></li>
+						<li><a class="footer__icon footer__icon--hover" href="https://www.instagram.com/abmpmassage/">
+								<i class="fa-brands fa-instagram"></i>
+							</a></li>
+						<li><a class="footer__icon footer__icon--hover" href="https://www.linkedin.com/groups?gid=48268e">
+								<i class="fa-brands fa-linkedin"></i>
+							</a></li>
+						<li><a class="footer__icon footer__icon--hover" href="https://www.youtube.com/user/ABMPmassage">
+								<i class="fa-brands fa-youtube"></i>
+							</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://kit.fontawesome.com/f8eacd1ba9.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
