@@ -698,6 +698,11 @@ input:focus {
   gap: 1.5rem; /* 24/16 */
   text-align: center;
 }
+.row-four h2 {
+  font-size: 1.40625rem; /* 22.5/16 */
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
 @media (min-width: 767.98px) {
   .row-four {
     grid-template-columns: repeat(4, 1fr);
