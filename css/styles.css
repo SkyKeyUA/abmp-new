@@ -1495,12 +1495,12 @@ input:focus {
 }
 @media (max-width: 767.98px) and (min-width: 479.98px) {
   .membership--padding-block {
-    padding-block: 2.5rem; /* 40/16 */
+    padding-block: 3.75rem 2.5rem; /* 40/16 */
   }
 }
 @media (max-width: 479.98px) {
   .membership--padding-block {
-    padding-block: 1.875rem; /* 30/16 */
+    padding-block: 3.75rem 1.875rem; /* 30/16 */
   }
 }
 .membership__container .cards-membership:nth-of-type(1) .cards-membership__item:first-child .cards-membership__inner {
@@ -1530,12 +1530,22 @@ input:focus {
   }
 }
 .membership__title {
-  -webkit-margin-after: 6.25rem;
-          margin-block-end: 6.25rem; /* 100/16 */
   text-align: center;
   font-size: 28px;
   line-height: 1.2;
   text-transform: uppercase;
+}
+@media (min-width: 767.98px) {
+  .membership__title {
+    -webkit-margin-after: 6.25rem;
+            margin-block-end: 6.25rem; /* 100/16 */
+  }
+}
+@media (max-width: 767.98px) {
+  .membership__title {
+    -webkit-margin-after: 1.5rem;
+            margin-block-end: 1.5rem; /* 24/16 */
+  }
 }
 .membership__body {
   -webkit-margin-after: 2.5rem;
