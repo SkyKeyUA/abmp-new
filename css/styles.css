@@ -815,29 +815,122 @@ input:focus {
   -webkit-margin-after: 3.75rem;
           margin-block-end: 3.75rem; /* 60/16 */
 }
-.podcasts-hero__apps {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 0.3125rem; /* 5/16 */
+
+.podcast-hero {
+  padding-block: 2rem; /* 32/16 */
 }
-.podcasts-hero__apps--border-bottom {
-  -webkit-padding-after: 1.125rem;
-          padding-block-end: 1.125rem; /* 18/16 */
-  -webkit-border-after: 0.125rem solid var(--color-black-80);
-          border-block-end: 0.125rem solid var(--color-black-80);
+.podcast-hero p {
+  font-weight: 300;
+  font-size: 1.25rem; /* 20/16 */
+  line-height: 1.33;
+  color: var(--color-black-80);
 }
-.podcasts-hero__apps li {
-  inline-size: 12.5rem; /* 200/16 */
-  aspect-ratio: 200/49;
+.podcast-hero a {
+  display: inline;
+  text-decoration: underline;
+  text-underline-offset: 0.125rem;
+  color: var(--color-grey-80);
+  text-decoration-color: var(--color-green-60);
+  font-weight: 400;
 }
-.podcasts-hero__apps li a {
-  inline-size: 100%;
-  block-size: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+@media (any-hover: hover) {
+  .podcast-hero a {
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  .podcast-hero a:hover {
+    color: var(--color-green-60);
+  }
+}
+.podcast-hero h1 {
+  font-weight: 500;
+  font-size: 2.25rem; /* 36/16 */
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--color-black-80);
+  -webkit-margin-after: 2.5rem;
+          margin-block-end: 2.5rem; /* 40/16 */
+}
+.podcast-hero h2 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1.375rem; /* 22/16 */
+  line-height: 1.2;
+  color: var(--color-black-80);
+}
+.podcast-hero__logo-apps {
+  -webkit-margin-after: 2.5rem;
+          margin-block-end: 2.5rem; /* 40/16 */
+}
+.podcast-hero__image-hero {
+  max-inline-size: 65.9375rem; /* 1055/16 */
+  -webkit-margin-after: 3.75rem;
+          margin-block-end: 3.75rem; /* 60/16 */
+  margin-inline: auto;
+}
+.podcast-hero__label {
+  font-weight: 700;
+  font-size: 1.125rem; /* 18/16 */
+  line-height: 1.5;
+  color: var(--color-grey-80);
+}
+.podcast-hero__name {
+  font-size: 1.125rem; /* 18/16 */
+  line-height: 1.5;
+}
+.podcast-hero__url {
+  font-size: 1.125rem; /* 18/16 */
+  line-height: 1.5;
+}
+.podcast-hero__list {
+  -webkit-margin-after: 1.125rem;
+          margin-block-end: 1.125rem; /* 18/16 */
+}
+.podcast-hero__list li {
+  font-size: 1.125rem; /* 18/16 */
+  line-height: 1.5;
+  color: var(--color-grey-80);
+  -webkit-padding-start: 1.40625rem;
+          padding-inline-start: 1.40625rem; /* 22.5/16 */
+  position: relative;
+}
+.podcast-hero__list li::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0.3125rem; /* 5/16 */
+  inset-block-start: 0.5625rem; /* 9/16 */
+  inline-size: 0.375rem; /* 6/16 */
+  aspect-ratio: 1;
+  background: var(--color-grey-80);
+  border-radius: 50%;
+}
+.podcast-hero__contacts {
+  font-weight: 300;
+  font-size: 1.25rem; /* 20/16 */
+  line-height: 1.33;
+  color: var(--color-black-80);
+  -webkit-margin-after: 0.75rem;
+          margin-block-end: 0.75rem; /* 12/16 */
+  word-break: break-all;
+}
+.podcast-hero__contacts li:not(:last-child) {
+  -webkit-margin-after: 0.75rem;
+          margin-block-end: 0.75rem; /* 12/16 */
+}
+.author-block__label {
+  font-weight: 700;
+  font-size: 1.125rem; /* 18/16 */
+  line-height: 1.5;
+  color: var(--color-grey-80);
+}
+.author-block__image {
+  max-inline-size: 12.5rem; /* 200/16 */
+  aspect-ratio: 1;
+  -webkit-margin-after: 1.125rem;
+          margin-block-end: 1.125rem; /* 18/16 */
+}
+.author-block__image img {
+  border-radius: 50%;
 }
 
 [class*="--cover"] img,
@@ -998,6 +1091,31 @@ input:focus {
   .section-header__more-info a:hover {
     color: var(--color-green-60);
   }
+}
+
+.logo-apps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 0.3125rem; /* 5/16 */
+}
+.logo-apps--border-bottom {
+  -webkit-padding-after: 1.125rem;
+          padding-block-end: 1.125rem; /* 18/16 */
+  -webkit-border-after: 0.125rem solid var(--color-black-80);
+          border-block-end: 0.125rem solid var(--color-black-80);
+}
+.logo-apps li {
+  inline-size: 12.5rem; /* 200/16 */
+  aspect-ratio: 200/49;
+}
+.logo-apps li a {
+  inline-size: 100%;
+  block-size: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 @media (any-hover: hover) {
