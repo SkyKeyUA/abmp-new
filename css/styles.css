@@ -1409,9 +1409,9 @@ input:focus {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-preferred-size: 2.8125rem;
-        flex-basis: 2.8125rem;
-    inline-size: 2.8125rem;
+    -ms-flex-preferred-size: 40px;
+        flex-basis: 40px;
+    inline-size: 40px;
     -ms-flex-negative: 0;
         flex-shrink: 0;
     -webkit-box-orient: vertical;
@@ -1422,7 +1422,7 @@ input:focus {
   .icon-menu::before,
   .icon-menu::after {
     content: "";
-    block-size: 0.375rem;
+    block-size: 4px;
     inline-size: 100%;
     background-color: var(--color-grey-80);
     -webkit-transition: -webkit-transform 0.3s ease;
@@ -1431,10 +1431,10 @@ input:focus {
     transition: transform 0.3s ease, -webkit-transform 0.3s ease;
   }
   .icon-menu span {
-    block-size: 0.375rem;
+    block-size: 4px;
     inline-size: 100%;
     background-color: var(--color-grey-80);
-    margin-block: 0.5625rem;
+    margin-block: 8px;
     -webkit-transition: inline-size 0.3s ease, margin-block 0.3s ease, block-size 0.3s ease;
     transition: inline-size 0.3s ease, margin-block 0.3s ease, block-size 0.3s ease;
     -ms-flex-item-align: end;
@@ -1446,14 +1446,14 @@ input:focus {
     block-size: 0;
   }
   .menu-open .icon-menu::before {
-    -webkit-transform: rotate(-45deg) translateY(0.2813rem);
-        -ms-transform: rotate(-45deg) translateY(0.2813rem);
-            transform: rotate(-45deg) translateY(0.2813rem);
+    -webkit-transform: rotate(-45deg) translateY(3px);
+        -ms-transform: rotate(-45deg) translateY(3px);
+            transform: rotate(-45deg) translateY(3px);
   }
   .menu-open .icon-menu::after {
-    -webkit-transform: rotate(45deg) translateY(-0.2813rem);
-        -ms-transform: rotate(45deg) translateY(-0.2813rem);
-            transform: rotate(45deg) translateY(-0.2813rem);
+    -webkit-transform: rotate(45deg) translateY(-3px);
+        -ms-transform: rotate(45deg) translateY(-3px);
+            transform: rotate(45deg) translateY(-3px);
   }
   .header__container {
     display: grid;

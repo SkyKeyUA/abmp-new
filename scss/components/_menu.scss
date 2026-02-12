@@ -5,24 +5,24 @@
 
 	.icon-menu {
 		display: flex;
-		flex-basis: 2.8125rem;
-		inline-size: 2.8125rem;
+		flex-basis: 40px;
+		inline-size: 40px;
 		flex-shrink: 0;
 		flex-direction: column;
 	}
 	.icon-menu::before,
 	.icon-menu::after {
 		content: "";
-		block-size: 0.375rem;
+		block-size: 4px;
 		inline-size: 100%;
 		background-color: var(--color-grey-80);
 		transition: transform 0.3s ease;
 	}
 	.icon-menu span {
-		block-size: 0.375rem;
+		block-size: 4px;
 		inline-size: 100%;
 		background-color: var(--color-grey-80);
-		margin-block: 0.5625rem;
+		margin-block: 8px;
 		transition:
 			inline-size 0.3s ease,
 			margin-block 0.3s ease,
@@ -35,10 +35,10 @@
 		block-size: 0;
 	}
 	.menu-open .icon-menu::before {
-		transform: rotate(-45deg) translateY(0.2813rem);
+		transform: rotate(-45deg) translateY(3px);
 	}
 	.menu-open .icon-menu::after {
-		transform: rotate(45deg) translateY(-0.2813rem);
+		transform: rotate(45deg) translateY(-3px);
 	}
 
 	.header__container {
