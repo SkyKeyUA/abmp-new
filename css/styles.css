@@ -1434,7 +1434,7 @@ input:focus {
     block-size: 0.25rem;
     inline-size: 100%;
     background-color: var(--color-grey-80);
-    margin-block: 8px;
+    margin-block: 0.5rem;
     -webkit-transition: inline-size 0.3s ease, margin-block 0.3s ease, block-size 0.3s ease;
     transition: inline-size 0.3s ease, margin-block 0.3s ease, block-size 0.3s ease;
     -ms-flex-item-align: end;
