@@ -2136,6 +2136,7 @@ main {
   gap: 1rem;
 }
 .header__logo {
+  min-inline-size: 10.625rem;
   max-inline-size: 17.1875rem; /* 275/16 */
   aspect-ratio: 275/102;
 }
@@ -2143,6 +2144,16 @@ main {
   .header__logo {
     position: relative;
     z-index: 100;
+  }
+}
+@media (max-width: 991.99px) and (min-width: 767.98px) {
+  .header__logo {
+    max-inline-size: 15rem; /* 240/16 */
+  }
+}
+@media (max-width: 767.98px) {
+  .header__logo {
+    max-inline-size: 10.625rem;
   }
 }
 .header__logo a {
