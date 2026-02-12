@@ -5,21 +5,21 @@
 
 	.icon-menu {
 		display: flex;
-		flex-basis: 40px;
-		inline-size: 40px;
+		flex-basis: 2.5rem;
+		inline-size: 2.5rem;
 		flex-shrink: 0;
 		flex-direction: column;
 	}
 	.icon-menu::before,
 	.icon-menu::after {
 		content: "";
-		block-size: 4px;
+		block-size: 0.25rem;
 		inline-size: 100%;
 		background-color: var(--color-grey-80);
 		transition: transform 0.3s ease;
 	}
 	.icon-menu span {
-		block-size: 4px;
+		block-size: 0.25rem;
 		inline-size: 100%;
 		background-color: var(--color-grey-80);
 		margin-block: 8px;
@@ -35,10 +35,10 @@
 		block-size: 0;
 	}
 	.menu-open .icon-menu::before {
-		transform: rotate(-45deg) translateY(3px);
+		transform: rotate(-45deg) translateY(0.1875rem);
 	}
 	.menu-open .icon-menu::after {
-		transform: rotate(45deg) translateY(-3px);
+		transform: rotate(45deg) translateY(-0.1875rem);
 	}
 
 	.header__container {
