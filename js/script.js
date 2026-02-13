@@ -1,5 +1,9 @@
 window.addEventListener('load', windowLoad);
 const html = document.documentElement;
+const header = document.querySelector('header');
+const headerLogo = header.querySelector('.header__logo');
+const headerMenu = header.querySelector('.menu');
+if (headerMenu) headerMenu.style.insetBlockStart = `${headerLogo.offsetHeight}` / 16 + 'rem';
 
 function windowLoad() {
   html.classList.add('loaded');
@@ -63,3 +67,6 @@ if (document.querySelector('.feedback__swiper')) {
     },
   });
 }
+window.addEventListener('resize', (e) => {
+  if (headerMenu) headerMenu.style.insetBlockStart = `${headerLogo.offsetHeight}` / 16 + 'rem';
+});

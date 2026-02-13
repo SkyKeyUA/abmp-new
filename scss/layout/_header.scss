@@ -3,6 +3,7 @@
 	// .header__container
 
 	&__container {
+		position: relative;
 		display: grid;
 		grid-template-columns: auto 1fr;
 		gap: 1rem;
@@ -43,7 +44,7 @@
 	@media (max-width: 1199.98px) {
 		grid-column: span 2;
 		position: relative;
-		z-index: 100;
+		z-index: 5;
 	}
 	@media (max-width: 549.98px) {
 		justify-content: center;
@@ -144,11 +145,11 @@
 				}
 			}
 			.submenu {
-				@media (min-width: 1198.98px) {
+				@media (min-width: 1199.98px) {
 					visibility: visible;
 					opacity: 1;
 				}
-				@media (max-width: 1198.98px) {
+				@media (max-width: 1199.98px) {
 					display: block;
 				}
 			}
@@ -171,6 +172,9 @@
 		@media (min-width: 1199.98px) {
 			inline-size: 100%;
 		}
+		@media (max-width: 479.98px) {
+			column-gap: 0.5rem; /* 8/16 */
+		}
 		&::after {
 			content: "";
 			vertical-align: 0.2em;
@@ -188,6 +192,7 @@
 
 .submenu {
 	@media (min-width: 1199.98px) {
+		background: var(--color-white);
 		position: absolute;
 		inset-block-start: 100%;
 		inset-inline-start: 0;
@@ -198,7 +203,6 @@
 		display: none;
 	}
 	inline-size: 100%;
-	background: var(--color-white);
 	color: var(--color-grey-80);
 	padding-block-end: 0.5625rem; /* 9/16 */
 	transition:
