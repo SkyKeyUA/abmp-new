@@ -169,6 +169,7 @@
 		align-items: center;
 		column-gap: 0.703125rem; /* 11.25/16 */
 		transition: color 0.3s;
+		text-align: start;
 		@media (min-width: 1199.98px) {
 			inline-size: 100%;
 		}

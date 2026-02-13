@@ -292,7 +292,6 @@ input:focus {
   display: flex;
   gap: 0.5rem; /* 8/16 */
   line-height: 1.69;
-  color: var(--color-grey-60);
 }
 .breadcrumbs ol a {
   text-decoration: underline;
@@ -302,6 +301,9 @@ input:focus {
 .breadcrumbs ol a:visited {
   color: var(--color-blue-70);
   text-decoration-color: var(--color-blue-70);
+}
+.breadcrumbs ol {
+  color: var(--color-grey-60);
 }
 .breadcrumbs ol li:not(:first-child)::before {
   content: "/";
@@ -640,14 +642,14 @@ input:focus {
   -webkit-margin-after: 0.75rem;
           margin-block-end: 0.75rem; /* 12/16 */
 }
+.pocketsuite__strong strong {
+  display: inline;
+}
 .pocketsuite__strong {
   font-size: 1.25rem; /* 20/16 */
   line-height: 1.33;
   -webkit-margin-after: 0.75rem;
           margin-block-end: 0.75rem; /* 12/16 */
-}
-.pocketsuite__strong strong {
-  display: inline;
 }
 .pocketsuite p a,
 .pocketsuite ul a {
@@ -992,14 +994,16 @@ input:focus {
 
 .info-line {
   max-inline-size: 58.75rem; /* 940/16 */
-  margin-inline: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 .info-line--padding-inline {
   padding-inline: 1rem; /* 16/16 */
   max-inline-size: 60.75rem; /* 972/16 */
+}
+.info-line {
+  margin-inline: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 @media (min-width: 767.98px) {
   .info-line {
@@ -2291,6 +2295,7 @@ main {
           column-gap: 0.703125rem; /* 11.25/16 */
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
+  text-align: start;
 }
 @media (min-width: 1199.98px) {
   .menu__dropdown {
@@ -2320,14 +2325,6 @@ main {
   text-decoration: underline;
 }
 
-.submenu {
-  inline-size: 100%;
-  color: var(--color-grey-80);
-  -webkit-padding-after: 0.5625rem;
-          padding-block-end: 0.5625rem; /* 9/16 */
-  -webkit-transition: opacity 0.3s, visibility 0.3s;
-  transition: opacity 0.3s, visibility 0.3s;
-}
 @media (min-width: 1199.98px) {
   .submenu {
     background: var(--color-white);
@@ -2342,6 +2339,14 @@ main {
   .submenu {
     display: none;
   }
+}
+.submenu {
+  inline-size: 100%;
+  color: var(--color-grey-80);
+  -webkit-padding-after: 0.5625rem;
+          padding-block-end: 0.5625rem; /* 9/16 */
+  -webkit-transition: opacity 0.3s, visibility 0.3s;
+  transition: opacity 0.3s, visibility 0.3s;
 }
 .submenu li {
   padding-inline: 0.5625rem; /* 9/16 */
